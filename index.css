@@ -1,0 +1,104 @@
+
+        .menu {
+              background: rgba(199, 142, 37, 0.8);
+              font-family: 'segoe UI', tomato, greenyellow;
+              position: fixed;
+              top: 0;
+              left: 0;
+              right: 0;
+              width: 100% ;
+              font-size: 25px;
+              padding: 15px; 
+              border-bottom: 2px solid rgb(49, 44, 95)
+        }
+        
+        .menu-right {
+position: absolute;
+right: 40px;
+        }
+
+        .menu-left {
+font-weight: bold;
+color:black
+        }
+
+        .menu-right a {
+            color:floralwhite;
+            text-decoration: none;
+            margin-left: 20px 
+
+        }
+.menu-right a:hover {
+    color: red
+}
+        body {
+            margin: 0;
+            background-image: url(img/фон.png);
+            font-family: 'segoe UI', Tahoma, geneva
+        }
+
+        .email {
+            display: inline-block;
+            margin-top: 80px;
+            color: rgb(21, 33, 68)
+        }
+
+        .email input {
+            border-block-start-color: rgb(0, 0, 0)
+        }
+        
+        .search {
+             margin: auto;
+            width: fit-content;
+             }
+
+             .banner {
+                 text-align: center;
+                 width:100%;
+                 height:600px;
+                 background-size: cover;
+                 background-image: url(img/2.gif)
+             }
+
+             .banner-title {
+                 
+                 margin-top:300px;
+                 font-size: 50px;
+                 font-weight: 900;
+             }
+
+             .main-cards {
+                 padding-top: 100px;
+                 padding-bottom: 100px;
+                 padding-left: 20px;
+                 padding-right: 20px;
+             }
+
+             .main-header {
+                 text-align: center;
+             }
+             
+             .hamster-card {
+                 border: 1px solid rgb(248, 140, 68);
+                 width: 25%;
+                 min-width: 250px;
+                 padding: 15px;
+                 text-align: center;
+                 border-radius: 50px;
+                 box-shadow: 0px 10px 30px 0px rgb(18, 7, 58)
+
+             }
+
+            .card-button {
+                color: wheat !important;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 500;
+                padding: 15px;
+                margin: auto;
+                border-radius: 15px;
+
+            }
+
+            .card-button:hover {
+                background-image: linear-gradient(0, rgb(255, 238, 0)0%, rgb(22, 2, 48) 100%), 
