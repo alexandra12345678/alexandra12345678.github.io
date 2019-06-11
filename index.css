@@ -10,11 +10,12 @@
               font-size: 25px;
               padding: 15px; 
               border-bottom: 2px solid rgb(49, 44, 95)
+            ;
         }
         
         .menu-right {
-position: absolute;
-right: 40px;
+vertical-align: middle;
+
         }
 
         .menu-left {
@@ -27,6 +28,7 @@ color:black
             text-decoration: none;
             margin-left: 20px 
 
+
         }
 .menu-right a:hover {
     color: red
@@ -38,18 +40,15 @@ color:black
         }
 
         .email {
-            display: inline-block;
-            margin-top: 80px;
-            color: rgb(21, 33, 68)
+           color: bisque;
         }
 
         .email input {
-            border-block-start-color: rgb(0, 0, 0)
+           
         }
         
         .search {
-             margin: auto;
-            width: fit-content;
+            color: bisque;
              }
 
              .banner {
@@ -85,7 +84,8 @@ color:black
                  padding: 15px;
                  text-align: center;
                  border-radius: 50px;
-                 box-shadow: 0px 10px 30px 0px rgb(18, 7, 58)
+                 box-shadow: 0px 10px 30px 0px rgb(18, 7, 58);
+                 margin-bottom: 25px;
 
              }
 
@@ -102,3 +102,85 @@ color:black
 
             .card-button:hover {
                 background-image: linear-gradient(0, rgb(255, 238, 0)0%, rgb(22, 2, 48) 100%), 
+            }
+
+            .footer {
+                padding: 100px 15px;
+                background: rgb(42, 4, 65);
+background-image: url(img/12.jpg);
+background-size: cover;
+color: wheat;
+                
+            }
+
+            .main-hamsters {
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                
+            }
+
+            .form-text {
+                border: none;
+                border-radius: 15px;
+                font-size: 20px;
+                padding: 10px 15px;
+                outline: none;
+            }
+
+            .form-button {
+                border: none;
+                border-radius: 15px;
+                font-size: 20px;
+                outline: none;
+                padding: 10px 15px;
+                cursor: pointer;
+                background: #5a3a0a
+            }
+
+            .copyright {
+                margin-top: 60px;
+
+            }
+
+            .socials {
+                display: flex;
+
+            }
+
+            .socials img {
+width: 50px;
+height: 50px;
+filter: grayscale(100%);
+
+            }
+
+            .socials a {
+                margin-left: 20px;
+            }
+            .socials img:hover {
+                filter: none
+            }
+
+            .content{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+
+            }
+
+            .content img {
+                height: 250px;
+
+            }
+
+            .menu-left img {
+                height: 50px;
+                width: 50px;
+                vertical-align: middle;
+
+            }
+
+            .logo-text {
+                vertical-align: middle;
+            }
