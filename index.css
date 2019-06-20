@@ -13,6 +13,7 @@
             z-index: 1001;
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
         
         .menu-right {
@@ -22,23 +23,22 @@ vertical-align: middle;
 
         .menu-left {
 font-weight: bold;
-color:black
+color:black;
         }
 
         .menu-right a {
             color:floralwhite;
             text-decoration: none;
-            margin-left: 20px 
-
+            margin-left: 20px; 
 
         }
 .menu-right a:hover {
-    color: red
+    color: red;
 }
         body {
             margin: 0;
             background-image: url(img/фон.png);
-            font-family: 'segoe UI', Tahoma, geneva
+            font-family: 'segoe UI', Tahoma, geneva;
         }
 
         .email {
@@ -237,11 +237,11 @@ filter: grayscale(100%);
         text-align: center;
     }
 
- //   .item-text p {//
+ /* //   .item-text p {//
 //height: 300px;//
-//overflow-y: scroll;//
+//overflow-y: scroll;// */
 
-    }
+    /* } */
 
     a.card-button {
         color: black !important;
@@ -261,6 +261,7 @@ filter: grayscale(100%);
     @media screen and (max-width:600px) {
         .menu-right a {
            padding: 10px;
+           display: block;
         }
         .menu-right img {
             display: inline;
