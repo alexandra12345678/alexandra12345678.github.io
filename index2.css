@@ -1,0 +1,205 @@
+.menu {
+    background: rgba(128, 87, 12, 0.8);
+    font-family: 'segoe UI', tomato, greenyellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100% ;
+    font-size: 25px;
+    padding: 15px; 
+    border-bottom: 2px solid rgb(49, 44, 95);
+  ;
+}
+
+.menu-right a {
+    color:floralwhite;
+    text-decoration: none;
+    margin-left: 20px ;
+}
+
+.menu-right {
+    vertical-align: middle;
+   }    
+   .logo-text {
+       position: center;
+   }
+
+   .menu-right a:hover {
+    color: red
+}
+
+body {
+    margin: 0;
+    background: wheat;
+    font-family: 'segoe UI', Tahoma, geneva
+}
+
+.hamster-card {
+    border: 1px solid rgb(99, 49, 17);
+    width: 25%;
+    min-width: 250px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px 0px rgb(248, 252, 5);
+    margin-bottom: 25px;
+
+}
+
+.card-button {
+   color: wheat !important;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 500;
+   padding: 15px;
+   margin: auto;
+   border-radius: 15px;
+
+}
+
+.banner {
+    text-align: center;
+    width:100%;
+    height:200px;
+    background-size: cover;
+    background-image: url(img/4.jpeg)
+}
+.banner-title {
+    
+   margin-top:300px;
+   font-size: 50px;
+   font-weight: 900;
+}
+
+.hamster-card {
+    border: 1px solid rgb(248, 140, 68);
+    width: 25%;
+    min-width: 250px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px 0px rgb(18, 7, 58);
+    margin-bottom: 25px;
+
+}
+
+.card-button {
+   color: wheat !important;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 500;
+   padding: 15px;
+   margin: auto;
+   border-radius: 15px;
+
+}
+
+.card-button:hover {
+background-image: linear-gradient(0, rgb(255, 238, 0)0%, rgb(22, 2, 48) 100%), 
+}
+
+.main-dog-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@import url(https://fonts.googleapis.com/css?family=Exo:400,500,700,700italic);
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 1.25em .75em;
+  background: rgb(133, 66, 11);
+  font: 1.4em 'Exo', sans-serif;
+}
+
+nav[role="select"] {
+  width: 100%;
+  position: relative;
+  color: #000;
+}
+nav[role="select"] > select {
+  display: none;
+}
+nav[role="select"] ul {
+  width: 100%;
+  list-style: none;
+}
+nav[role="select"] ul > li {
+  float: left;
+  padding: .55em .45em;
+  width: 19%;
+  font-size: 1.2em;
+  background-color:rgb(59, 29, 5);
+  text-align: center;
+  transition-duration: .15s;
+  transition-timing-function: ease-in-out;
+  transition-property: box-shadow, background, color, text-align, padding;
+  cursor: pointer;
+  color: rgb(252, 205, 167);
+}
+nav[role="select"] ul > li:hover {
+  background-color: rgba(90, 32, 5, 0.3);
+  color: #fff;
+  text-align: left;
+  padding-left: .75em;
+  box-shadow: 0 0 0 0.25em rgba(0, 0, 0, 0.3), 0 0 0 0.5em rgba(0, 0, 0, 0.3), 0 0 0 0.75em rgba(0, 0, 0, 0.3), inset 0 0 0 0.25em rgba(0, 0, 0, 0.3);
+}
+nav[role="select"] ul > li > a {
+  color: inherit;
+  text-decoration: none;
+  transition: inherit;
+}
+
+/* small screens */
+@media screen and (max-width: 44em) {
+  body {
+    margin: 1em 0;
+  }
+
+  nav[role="select"] ul {
+    display: none;
+  }
+  nav[role="select"]:after {
+    position: absolute;
+    z-index: -1;
+    content: "Menu";
+    right: 0;
+    bottom: -1.75em;
+    background: rgba(90,32,5, 0.4);
+    padding: .15em .55em;
+  }
+  nav[role="select"] select {
+    display: block;
+    user-select: none;
+    cursor: pointer;
+    width: 100%;
+    padding: .55em .45em;
+    border: none;
+    background-color: rgba(90,32,5, 0.25);
+    font: 1.2em 'Exo', sans-serif;
+  }
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.a {
+    color: wheat;
+}
+.textonas {
+    position: absolute;
+    margin: 100px;
+    padding: 100px;
+    color: wheat;
+}
+.main-header {
+    text-align: center;
+}
