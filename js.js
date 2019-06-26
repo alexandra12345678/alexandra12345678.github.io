@@ -1,10 +1,7 @@
-$(window).scroll(function() {
-    $('.fadedfx').each(function(){
-    var imagePos = $(this).offset().top;
+// Simply swap out emojis from http://getemoji.com/
 
-    var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+500) {
-            $(this).addClass("fadeIn");
-        }
-    });
-});
+// Working on a working rating system
+// $("span").click(function(){
+// 	$(this).addClass('selected');
+//   console.log(this);
+// });
