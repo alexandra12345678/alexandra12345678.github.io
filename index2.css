@@ -206,3 +206,59 @@ nav[role="select"] ul > li > a {
   margin-left: -25px;
   -webkit-transform: rotate(-30deg);
 }
+
+.footer {
+  padding: 100px 15px;
+  background: rgb(42, 4, 65);
+background-image: url(img/12.jpg);
+background-size: cover;
+color: wheat;
+}
+
+
+.socials img {
+  width: 50px;
+  height: 50px;
+  filter: grayscale(100%);
+  
+              }
+  
+              .socials a {
+                  margin-left: 20px;
+              }
+              .socials img:hover {
+                  filter: none
+              }
+
+              .form-button {
+                border: none;
+                border-radius: 15px;
+                font-size: 20px;
+                outline: none;
+                padding: 10px 15px;
+                cursor: pointer;
+                background: #5a3a0a
+            }
+
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.cards2 {
+  margin-top: 100px;
+}
+
+.carousel-item {
+ max-height: 500px;
+ 
+
+}
+
+.main4{
+  margin-top: 100px;
+}
