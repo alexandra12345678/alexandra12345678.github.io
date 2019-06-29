@@ -1,97 +1,97 @@
 .menu {
-    background: rgba(194, 185, 57, 0.8);
-    font-family: 'segoe UI', tomato, greenyellow;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100% ;
-    font-size: 25px;
-    padding: 15px; 
-    border-bottom: 2px solid rgb(49, 44, 95);
-  ;
+  background: rgba(194, 185, 57, 0.8);
+  font-family: 'segoe UI', tomato, greenyellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100% ;
+  font-size: 25px;
+  padding: 15px; 
+  border-bottom: 2px solid rgb(49, 44, 95);
+;
 }
 
 .menu-right a {
-    color:floralwhite;
-    text-decoration: none;
-    margin-left: 20px ;
+  color:floralwhite;
+  text-decoration: none;
+  margin-left: 20px ;
 }
 
 .menu-right {
-    vertical-align: middle;
-   }    
-   .logo-text {
-       position: center;
-   }
+  vertical-align: middle;
+ }    
+ .logo-text {
+     position: center;
+ }
 
-   .menu-right a:hover {
-    color: red
+ .menu-right a:hover {
+  color: red
 }
 
 body {
-    margin: 0;
-    background: wheat;
-    font-family: 'segoe UI', Tahoma, geneva
+  margin: 0;
+  background: wheat;
+  font-family: 'segoe UI', Tahoma, geneva
 }
 
 .hamster-card {
-    border: 1px solid rgb(99, 49, 17);
-    width: 25%;
-    min-width: 250px;
-    padding: 15px;
-    text-align: center;
-    border-radius: 50px;
-    box-shadow: 0px 10px 30px 0px rgb(248, 252, 5);
-    margin-bottom: 25px;
+  border: 1px solid rgb(99, 49, 17);
+  width: 25%;
+  min-width: 250px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0px 10px 30px 0px rgb(248, 252, 5);
+  margin-bottom: 25px;
 
 }
 
 .card-button {
-   color: wheat !important;
-   text-decoration: none;
-   text-transform: uppercase;
-   font-weight: 500;
-   padding: 15px;
-   margin: auto;
-   border-radius: 15px;
+ color: wheat !important;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 500;
+ padding: 15px;
+ margin: auto;
+ border-radius: 15px;
 
 }
 
 .banner {
-    text-align: center;
-    width:100%;
-    height:200px;
-    background-size: cover;
-    background-image: url(img/4.jpeg)
+  text-align: center;
+  width:100%;
+  height:200px;
+  background-size: cover;
+  background-image: url(img/4.jpeg)
 }
 .banner-title {
-    
-   margin-top:300px;
-   font-size: 50px;
-   font-weight: 900;
+  
+ margin-top:300px;
+ font-size: 50px;
+ font-weight: 900;
 }
 
 .hamster-card {
-    border: 1px solid rgb(248, 140, 68);
-    width: 25%;
-    min-width: 250px;
-    padding: 15px;
-    text-align: center;
-    border-radius: 50px;
-    box-shadow: 0px 10px 30px 0px rgb(18, 7, 58);
-    margin-bottom: 25px;
+  border: 1px solid rgb(248, 140, 68);
+  width: 25%;
+  min-width: 250px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0px 10px 30px 0px rgb(18, 7, 58);
+  margin-bottom: 25px;
 
 }
 
 .card-button {
-   color: wheat !important;
-   text-decoration: none;
-   text-transform: uppercase;
-   font-weight: 500;
-   padding: 15px;
-   margin: auto;
-   border-radius: 15px;
+ color: wheat !important;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 500;
+ padding: 15px;
+ margin: auto;
+ border-radius: 15px;
 
 }
 
@@ -100,116 +100,116 @@ background-image: linear-gradient(0, rgb(255, 238, 0)0%, rgb(22, 2, 48) 100%),
 }
 
 .main-dog-cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 @import url(https://fonts.googleapis.com/css?family=Exo:400,500,700,700italic);
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 
 body {
-  margin: 1.25em .75em;
-  background: rgb(190, 153, 104);
-  font: 1.4em 'Exo', sans-serif;
+margin: 1.25em .75em;
+background: rgb(190, 153, 104);
+font: 1.4em 'Exo', sans-serif;
 }
 
 nav[role="select"] {
-  width: 100%;
-  position: relative;
-  color: #000;
+width: 100%;
+position: relative;
+color: #000;
 }
 nav[role="select"] > select {
-  display: none;
+display: none;
 }
 nav[role="select"] ul {
-  width: 100%;
-  list-style: none;
+width: 100%;
+list-style: none;
 }
 nav[role="select"] ul > li {
-  float: left;
-  padding: .55em .45em;
-  width: 19%;
-  font-size: 1.2em;
-  background-color:rgb(59, 29, 5);
-  text-align: center;
-  transition-duration: .15s;
-  transition-timing-function: ease-in-out;
-  transition-property: box-shadow, background, color, text-align, padding;
-  cursor: pointer;
-  color: rgb(252, 205, 167);
+float: left;
+padding: .55em .45em;
+width: 19%;
+font-size: 1.2em;
+background-color:rgb(59, 29, 5);
+text-align: center;
+transition-duration: .15s;
+transition-timing-function: ease-in-out;
+transition-property: box-shadow, background, color, text-align, padding;
+cursor: pointer;
+color: rgb(252, 205, 167);
 }
 nav[role="select"] ul > li:hover {
-  background-color: rgba(90, 32, 5, 0.3);
-  color: #fff;
-  text-align: left;
-  padding-left: .75em;
-  box-shadow: 0 0 0 0.25em rgba(0, 0, 0, 0.3), 0 0 0 0.5em rgba(0, 0, 0, 0.3), 0 0 0 0.75em rgba(0, 0, 0, 0.3), inset 0 0 0 0.25em rgba(0, 0, 0, 0.3);
+background-color: rgba(90, 32, 5, 0.3);
+color: #fff;
+text-align: left;
+padding-left: .75em;
+box-shadow: 0 0 0 0.25em rgba(0, 0, 0, 0.3), 0 0 0 0.5em rgba(0, 0, 0, 0.3), 0 0 0 0.75em rgba(0, 0, 0, 0.3), inset 0 0 0 0.25em rgba(0, 0, 0, 0.3);
 }
 nav[role="select"] ul > li > a {
-  color: inherit;
-  text-decoration: none;
-  transition: inherit;
+color: inherit;
+text-decoration: none;
+transition: inherit;
 }
 
 .main-header {
-    text-align: center;
+  text-align: center;
 }
 
 .card-columns {
-    position: fixed;
-   
+  position: fixed;
+ 
 }
 
 
 
 .rating {
-	font-size: 120px;
-	height: 170px;
-	line-height: 170px;
+font-size: 120px;
+height: 170px;
+line-height: 170px;
 }
 
 .rating1:hover:before {
-   content: "🤒";
-   position: absolute;
-    font-size: 170px;
-  margin-left: -25px;
-  -webkit-transform: scale(1.2);
-    -webkit-transform: rotate(30deg);
+ content: "🤒";
+ position: absolute;
+  font-size: 170px;
+margin-left: -25px;
+-webkit-transform: scale(1.2);
+  -webkit-transform: rotate(30deg);
 }
 .rating2:hover:before {
-   content: "😣";
-   position: absolute;
-    font-size: 150px;
-  margin-left: -15px;
-    -webkit-transform: rotate(15deg);
+ content: "😣";
+ position: absolute;
+  font-size: 150px;
+margin-left: -15px;
+  -webkit-transform: rotate(15deg);
 }
 .rating3:hover:before {
-   content: "😐";
-   position: absolute;
-    font-size: 140px;
-  margin-left: -10px;
+ content: "😐";
+ position: absolute;
+  font-size: 140px;
+margin-left: -10px;
 }
 .rating4:hover:before {
-   content: "😎";
-   position: absolute;
-  font-size: 150px;
-  margin-left: -15px;
-    -webkit-transform: rotate(-15deg);
+ content: "😎";
+ position: absolute;
+font-size: 150px;
+margin-left: -15px;
+  -webkit-transform: rotate(-15deg);
 }
 .rating5:hover:before {
-   content: "🤑";
-   position: absolute;
-    font-size: 170px;
-  margin-left: -25px;
-  -webkit-transform: rotate(-30deg);
+ content: "🤑";
+ position: absolute;
+  font-size: 170px;
+margin-left: -25px;
+-webkit-transform: rotate(-30deg);
 }
 
 .footer {
-  padding: 100px 15px;
-  background: rgb(42, 4, 65);
+padding: 100px 15px;
+background: rgb(42, 4, 65);
 background-image: url(img/12.jpg);
 background-size: cover;
 color: wheat;
@@ -217,48 +217,52 @@ color: wheat;
 
 
 .socials img {
-  width: 50px;
-  height: 50px;
-  filter: grayscale(100%);
-  
-              }
-  
-              .socials a {
-                  margin-left: 20px;
-              }
-              .socials img:hover {
-                  filter: none
-              }
+width: 50px;
+height: 50px;
+filter: grayscale(100%);
 
-              .form-button {
-                border: none;
-                border-radius: 15px;
-                font-size: 20px;
-                outline: none;
-                padding: 10px 15px;
-                cursor: pointer;
-                background: #5a3a0a
             }
+
+            .socials a {
+                margin-left: 20px;
+            }
+            .socials img:hover {
+                filter: none
+            }
+
+            .form-button {
+              border: none;
+              border-radius: 15px;
+              font-size: 20px;
+              outline: none;
+              padding: 10px 15px;
+              cursor: pointer;
+              background: #5a3a0a
+          }
 
 
 .header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+z-index: 999;
 }
 
 .cards2 {
-  margin-top: 100px;
+margin-top: 100px;
 }
 
 .carousel-item {
- max-height: 500px;
- 
+max-height: 500px;
+
 
 }
 
 .main4{
-  margin-top: 100px;
+margin-top: 100px;
+}
+
+.main5 {
+  margin-top: 150px;
 }
