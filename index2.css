@@ -62,17 +62,15 @@ body {
 .banner {
   text-align: center;
   width:100%;
-  height:800px;
   background-size: cover;
   background-image: url(img/dog.png);
-position: fixed;
 }
 .banner-title {
   
  margin-top:300px;
  font-size: 50px;
  font-weight: 900;
-color: rgb(235, 179, 77);
+color: rgb(0, 0, 0);
 }
 
 .hamster-card {
@@ -114,7 +112,6 @@ box-sizing: border-box;
 
 
 body {
-margin: 1.25em .75em;
 background: rgb(190, 153, 104);
 font: 1.4em 'Exo', sans-serif;
 }
